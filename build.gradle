@@ -37,9 +37,9 @@ dependencies {
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-	implementation 'org.flywaydb:flyway-core'
-	implementation 'org.flywaydb:flyway-database-postgresql'
-	implementation 'org.flywaydb:flyway-core:6.4.3'
+	implementation 'org.flywaydb:flyway-core:9.16.3'
+	implementation 'org.flywaydb:flyway-mysql:9.16.3'
+
 }
 
 tasks.named('test') {
