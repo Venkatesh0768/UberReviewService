@@ -1,11 +1,12 @@
 package com.example.demo.services;
 
-import com.example.demo.models.Review;
+
 import com.example.demo.repositories.ReviewRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import org.hibernate.FetchNotFoundException;
 import org.springframework.stereotype.Service;
+import org.example.uberprojectentityservice.models.Review;
 
 import java.util.List;
 import java.util.Optional;
